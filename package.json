@@ -5,13 +5,25 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "server": "nodemon index.js"
+    "start": "nodemon index.js"
   },
   "dependencies": {
+    "express": "^4.17.1",
     "knex": "^0.18.3",
     "sqlite3": "^4.0.9"
   },
   "devDependencies": {
-    "nodemon": "^1.19.1"
-  }
+    "nodemon": "^1.19.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcgowent/webapi-ii-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mcgowent/webapi-ii-challenge/issues"
+  },
+  "homepage": "https://github.com/mcgowent/webapi-ii-challenge#readme"
 }
